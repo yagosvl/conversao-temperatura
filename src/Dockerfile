@@ -1,4 +1,4 @@
-FROM Node:18.11.0
+FROM node:18.11.0
 WORKDIR /temperaturaApp
 COPY package*.json ./
 RUN npm install
